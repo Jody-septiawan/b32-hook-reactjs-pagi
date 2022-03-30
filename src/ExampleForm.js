@@ -15,7 +15,6 @@ function ExampleForm() {
       ...state,
       [e.target.name]: e.target.value,
     });
-    console.log(state);
   };
 
   const handleOnSubmit = (e) => {
